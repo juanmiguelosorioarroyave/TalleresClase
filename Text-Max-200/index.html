@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/8ae2132bb0.js" crossorigin="anonymous"></script>
+  <title>Cadenas de Texto</title>
+</head>
+<body>
+  <header>
+    <nav id="Menu_Bienvenido">
+      <p>Bienvenido</p>
+      <div class="Usuario"><p id="IniciaNombre" href=""></p></div>
+    </nav>
+    <h1>Escribe Tu Comentario</h1>
+  </header>
+  <main>
+    <div class="Contenedor">
+      <h2>Hola!</h2>
+      <fieldset>
+        <i class="far fa-user"></i>
+        <input type="text" placeholder="Escriba Su Nombre" id="Txt_Nombre">
+      </fieldset>      
+      <textarea id="Comentario" cols="20" rows="10" placeholder="Tienes Un Total De 200 Caracteres" maxlength="200"></textarea>
+      <p id="Contador">200</p>              
+      <button id="Boton_Enviado">Enviar</button>  
+      <p id="ImprimiendoTxtArea"></p>    
+    </div>    
+  </main>  
+  <script src="app1.js"></script>
+</body>
+</html>
