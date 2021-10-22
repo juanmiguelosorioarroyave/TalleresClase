@@ -6,7 +6,7 @@
 body{
     height: auto;
     width: 100%;
-    background-image: url(./Images/colombia-elecciones.gif);
+    background-image: url(./Images/putin-walk-vladimir-putin.gif);
     background-repeat: repeat-x;
     background-size: cover;
 }
@@ -32,6 +32,7 @@ input{
 
 input#age-User {
     padding: 6px;
+    padding: 3%;
 }
 
 button:focus{
@@ -57,14 +58,16 @@ p{
 }
 
 .box{
-    width: 500px;
-    height: 500px;
-        margin: 0 auto;
-        margin-top: 12%;
-        padding: 20px;
-        color: black;
-        text-align: center;
-        box-shadow: 0 0 20px rgba(7, 168, 204, 0.693);
-        border-radius: 15px;
-        background: linear-gradient(white 34%,dodgerblue 0%);
+    position: relative;
+    width: 350px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 25%;
+    padding: 22px;
+    color: black;
+    text-align: center;
+    box-shadow: 0 0 70px rgb(7 168 204 / 69%);
+    border-radius: 15px;
+    background: deepskyblue;
+    font-family: cursive;
 }
